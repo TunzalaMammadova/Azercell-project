@@ -616,14 +616,14 @@ ul li a:hover:after {
 
 #cards-area .carts .card1 .other-2 p1 {
     color: grey;
-    
+
 }
 
-#cards-area .carts .card1 .other-3 .message{
+#cards-area .carts .card1 .other-3 .message {
     display: flex;
 }
 
-#cards-area .carts .card1 .other-3 .wp-instagram-icon{
+#cards-area .carts .card1 .other-3 .wp-instagram-icon {
     margin-left: 100px;
     margin-top: -10px;
     font-size: 30px;
@@ -739,14 +739,14 @@ ul li a:hover:after {
 
 #cards-area .carts .card2 .other-2 p1 {
     color: grey;
-    
+
 }
 
-#cards-area .carts .card2 .other-3 .message{
+#cards-area .carts .card2 .other-3 .message {
     display: flex;
 }
 
-#cards-area .carts .card2 .other-3 .wp-instagram-icon{
+#cards-area .carts .card2 .other-3 .wp-instagram-icon {
     margin-left: 100px;
     margin-top: -10px;
     font-size: 30px;
@@ -1230,6 +1230,7 @@ ul li a:hover:after {
     height: 180px;
     background-color: white;
     border-radius: 15px 15px 0px 0px;
+
 }
 
 #mini-carts-area .mini-carts .carts .cart-2 {
@@ -1260,6 +1261,62 @@ ul li a:hover:after {
     border-radius: 15px 15px 0px 0px;
 }
 
+#mini-carts-area .mini-carts .carts .cart-1:hover {
+    background-image: url(../images/backgr-1.webp);
+    width: 180px;
+    height: 180px;
+    scale: 1.3;
+    transition: all 0.5s;
+    transform: translateZ(-90px);
+    z-index: 1;
+    overflow: visible;
+}
+
+#mini-carts-area .mini-carts .carts .cart-2:hover {
+
+    background-image: url(../images/backgr-2.webp);
+    width: 180px;
+    height: 160px;
+    scale: 1.3;
+    transition: all 0.5s;
+    transform: translateZ(-90px);
+    z-index: 0;
+}
+
+#mini-carts-area .mini-carts .carts .cart-3:hover {
+
+    background-image: url(../images/backgr-3.webp);
+    width: 180px;
+    height: 160px;
+    scale: 1.3;
+    transition: all 0.5s;
+    transform: translateZ(-90px);
+    z-index: 0;
+}
+
+#mini-carts-area .mini-carts .carts .cart-4:hover {
+
+    width: 180px;
+    height: 160px;
+    background-image: url(../images/backgr-4.webp);
+    scale: 1.3;
+    transition: all 0.5s;
+    transform: translateZ(-90px);
+    z-index: 0;
+}
+
+#mini-carts-area .mini-carts .carts .cart-5:hover {
+
+    width: 180px;
+    background-image: url(../images/backgr-5.png);
+    width: 180px;
+    height: 180px;
+    scale: 1.3;
+    transition: all 0.5s;
+    transform: translateZ(-90px);
+    z-index: 0;
+    border-radius: 15px;
+}
 
 #mini-carts-area .mini-carts .carts .img-1 img {
     width: 60px;
@@ -1298,7 +1355,7 @@ ul li a:hover:after {
 
 
 #mini-carts-area .mini-carts .activation1 {
-    width: 200px;
+    width: 180px;
     height: 40px;
     display: flex;
     gap: 10px;
@@ -1323,7 +1380,7 @@ ul li a:hover:after {
 }
 
 #mini-carts-area .mini-carts .activation2 {
-    width: 200px;
+    width: 180px;
     height: 40px;
     display: flex;
     gap: 10px;
@@ -1348,7 +1405,7 @@ ul li a:hover:after {
 }
 
 #mini-carts-area .mini-carts .activation3 {
-    width: 200px;
+    width: 180px;
     height: 40px;
     display: flex;
     gap: 10px;
@@ -1373,7 +1430,7 @@ ul li a:hover:after {
 }
 
 #mini-carts-area .mini-carts .activation4 {
-    width: 200px;
+    width: 180px;
     height: 40px;
     display: flex;
     gap: 10px;
@@ -1398,7 +1455,7 @@ ul li a:hover:after {
 }
 
 #mini-carts-area .mini-carts .activation5 {
-    width: 200px;
+    width: 180px;
     height: 40px;
     display: flex;
     gap: 10px;
@@ -1574,6 +1631,179 @@ ul li a:hover:after {
     transition: all 0.5s;
 
 }
+
+#top-area .text h3 {
+    width: 250px;
+    height: 100px;
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#top-area .text span {
+    color: grey;
+    font-size: 17px;
+}
+
+#top-area .top {
+    margin-top: 100px;
+}
+
+#amount-price-area .amount-price {
+    display: flex;
+    gap: 100px;
+    margin-top: -100px;
+}
+
+.text label {
+    font-size: 17px;
+    color: grey;
+}
+
+.text input {
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    border-radius: 13px;
+    border: 1px solid grey
+}
+
+#top-area .top-img {
+    display: flex;
+}
+
+#top-area .top-img .image {
+    display: inline;
+    margin-left: 160px;
+    margin-top: 150px;
+
+}
+
+#top-area .top-img .image img {
+
+    width: 550px;
+    height: 400px;
+    position: relative;
+}
+
+#top-area .top-img .image .card-number {
+    position: absolute;
+    margin-top: -245px;
+    margin-left: 20px;
+}
+
+.image label {
+    font-size: 17px;
+    color: grey;
+}
+
+.image input {
+    width: 500px;
+    height: 50px;
+    background-color: white;
+    border-radius: 13px;
+    border: 2px solid rgb(102, 102, 102)
+}
+
+.amount input {
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid grey
+}
+
+.amount label {
+    font-size: 17px;
+    color: grey;
+}
+
+.choose span {
+    font-size: 17px;
+    color: grey;
+}
+
+#amount-price-area .choose {
+    margin-left: 20px;
+}
+
+#amount-price-area .prices {
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+#amount-price-area .prices .price-1 {
+    width: 50px;
+    height: 50px;
+    background-color: #00b0db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+#amount-price-area .prices .price-2 {
+    width: 50px;
+    height: 50px;
+    background: rgba(46, 18, 66, .1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+#amount-price-area .prices .price-3 {
+    width: 50px;
+    height: 50px;
+    background: rgba(46, 18, 66, .1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+#amount-price-area .prices a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Lota Grotesque', sans-serif;
+}
+
+#amount-price-area .prices .price-1 a {
+    color: white;
+}
+
+#amount-price-area .prices .price-2 a {
+    color: black;
+}
+
+#amount-price-area .prices .price-3 a {
+    color: black;
+}
+
+#amount-price-area .amount-img button {
+    border: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    background: #f35b0c;
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: -10px;
+}
+
+#amount-price-area .amount-img button:hover {
+    background-color: rgb(207, 86, 0);
+    transition: all 0.5s;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
 
 .col-1 {
     width: 8.33%;
