@@ -13,9 +13,10 @@
     margin: 0 auto;
 }
 
-main{
+main {
     background-color: rgb(250, 250, 250);
 }
+
 .header-up {
     height: 40px;
     background-color: black;
@@ -161,7 +162,6 @@ ul li a:hover:after {
 
 .header-up .account a {
     margin-right: 10px;
-    
     text-decoration: none;
     font-size: 12px;
     font-family: 'Lota Grotesque', sans-serif;
@@ -257,7 +257,7 @@ ul li a:hover:after {
 .header-center .navbar .logo {
     width: 200px;
     margin-top: 10px;
-    margin-right:220px;
+    margin-right: 220px;
 }
 
 .header-center .navbar .about {
@@ -406,7 +406,7 @@ ul li a:hover:after {
 #packages-area .packages h2 {
     padding-top: 5px;
     padding-left: 100px;
- 
+
 
 }
 
@@ -421,7 +421,6 @@ ul li a:hover:after {
     display: flex;
     margin-top: 20px;
     background-color: rgb(247, 247, 247);
-    position: relative;
 
 }
 
@@ -433,16 +432,16 @@ ul li a:hover:after {
     width: 330px;
     height: 550px;
     margin-left: 18px;
-
     border-radius: 15px;
     background-color: white;
+    position: relative;
 }
-
 
 #cards-area .carts .card1 .img1 {
     width: 100%;
     height: 160px;
     border-radius: 13px 13px 0px 0px;
+    position: relative;
 }
 
 #cards-area .carts .card1 span {
@@ -450,16 +449,198 @@ ul li a:hover:after {
     font-size: 12px;
     color: grey;
     padding: 10px;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left: 40px;
     display: inline-block
 }
+
+#cards-area .carts .card1 .prepaid {
+
+    display: flex;
+    position: absolute;
+    margin-top: -140px;
+    margin-left: 10px;
+    color: white;
+}
+
+#cards-area .carts .card1 .prepaid p {
+    font-family: 'Lota Grotesque', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+#cards-area .carts .card1 .prepaid p1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 25px;
+    margin-left: 120px;
+    font-size: 14px;
+    font-weight: bold;
+    color: purple;
+    border-radius: 13px;
+    background-color: rgb(199, 199, 199);
+    opacity: 0.5;
+}
+
 
 #cards-area .carts .card1 .img1 img {
     width: 100%;
     height: 100%;
     border-radius: 13px 13px 0px 0px;
 }
+
+
+#cards-area .carts .card1 .price-area {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    background-color: rgb(199, 199, 199);
+    opacity: 0.5;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 15px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Lota Grotesque', sans-serif;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+#cards-area .carts .card1 .price-area .price-1 a {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -5px;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+
+}
+
+#cards-area .carts .card1 .price-area .price-2 a {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    background-color: grey;
+}
+
+#cards-area .carts .card1 .price-area .price-2 a {
+    scale: 1.3
+}
+
+#cards-area .carts .card1 .price-area .price-3 a {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+}
+
+#cards-area .carts .card1 .price-area .price-4 a {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+}
+
+#cards-area .carts .card1 .price-area .price-5 a {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+}
+
+#cards-area .carts .card1 .price-area a:hover {
+    color: purple;
+    transition: all 0.5s;
+    cursor: pointer;
+    background-color: grey;
+}
+
+#cards-area .carts .card1 .other-1 {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 20px;
+    gap: 10px;
+    font-family: 'Lota Grotesque', sans-serif;
+}
+
+#cards-area .carts .card1 .other-1 p {
+    font-weight: bold;
+}
+
+#cards-area .carts .card1 .other-1 p1 {
+    color: grey;
+}
+
+#cards-area .carts .card1 .other-2 {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 23px;
+    gap: 10px;
+    font-family: 'Lota Grotesque', sans-serif;
+}
+
+#cards-area .carts .card1 .other-2 p {
+    font-weight: bold;
+}
+
+#cards-area .carts .card1 .other-2 p1 {
+    color: grey;
+    
+}
+
+#cards-area .carts .card1 .other-3 .message{
+    display: flex;
+}
+
+#cards-area .carts .card1 .other-3 .wp-instagram-icon{
+    margin-left: 100px;
+    margin-top: -10px;
+    font-size: 30px;
+}
+
+#cards-area .carts .card1 .other-3 {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 33px;
+    gap: 10px;
+    font-family: 'Lota Grotesque', sans-serif;
+}
+
+#cards-area .carts .card1 .other-3 p1 {
+    font-weight: bold;
+}
+
 
 #cards-area .carts .card2 {
     width: 330px;
@@ -469,12 +650,192 @@ ul li a:hover:after {
     background-color: white;
 }
 
-
 #cards-area .carts .card2 .img2 {
     width: 100%;
     height: 160px;
     border-radius: 13px 13px 0px 0px;
+    position: relative;
 
+}
+
+#cards-area .carts .card2 .prepaid {
+
+    display: flex;
+    position: absolute;
+    margin-top: -140px;
+    margin-left: 10px;
+    color: white;
+}
+
+#cards-area .carts .card2 .prepaid p {
+    font-family: 'Lota Grotesque', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+#cards-area .carts .card2 .prepaid p1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 25px;
+    margin-left: 115px;
+    font-size: 14px;
+    font-weight: bold;
+    color: purple;
+    border-radius: 13px;
+    background-color: rgb(199, 199, 199);
+    opacity: 0.5;
+}
+
+
+#cards-area .carts .card2 .price-area {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    background-color: rgb(199, 199, 199);
+    opacity: 0.5;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 60px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Lota Grotesque', sans-serif;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+#cards-area .carts .card2 .other-1 {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 20px;
+    gap: 10px;
+    font-family: 'Lota Grotesque', sans-serif;
+}
+
+#cards-area .carts .card2 .other-1 p {
+    font-weight: bold;
+}
+
+#cards-area .carts .card2 .other-1 p1 {
+    color: grey;
+}
+
+#cards-area .carts .card2 .other-2 {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 23px;
+    gap: 10px;
+    font-family: 'Lota Grotesque', sans-serif;
+}
+
+#cards-area .carts .card2 .other-2 p {
+    font-weight: bold;
+}
+
+#cards-area .carts .card2 .other-2 p1 {
+    color: grey;
+    
+}
+
+#cards-area .carts .card2 .other-3 .message{
+    display: flex;
+}
+
+#cards-area .carts .card2 .other-3 .wp-instagram-icon{
+    margin-left: 100px;
+    margin-top: -10px;
+    font-size: 30px;
+}
+
+#cards-area .carts .card2 .other-3 {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 33px;
+    gap: 10px;
+    font-family: 'Lota Grotesque', sans-serif;
+}
+
+#cards-area .carts .card2 .other-3 p1 {
+    font-weight: bold;
+}
+
+#cards-area .carts .card2 .price-area .price-1 a {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -5px;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+
+}
+
+#cards-area .carts .card2 .price-area .price-2 a {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    background-color: grey;
+}
+
+#cards-area .carts .card2 .price-area .price-2 a {
+    scale: 1.3
+}
+
+#cards-area .carts .card2 .price-area .price-3 a {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+}
+
+#cards-area .carts .card2 .price-area .price-4 a {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+}
+
+#cards-area .carts .card2 .price-area .price-5 a {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+}
+
+#cards-area .carts .card2 .price-area a:hover {
+    color: purple;
+    transition: all 0.5s;
+    cursor: pointer;
+    background-color: grey;
 }
 
 #cards-area .carts .card2 .img2 img {
@@ -488,11 +849,9 @@ ul li a:hover:after {
     font-size: 12px;
     color: grey;
     padding: 10px;
-    margin-top: 40px;
     margin-left: 40px;
     display: inline-block
 }
-
 
 #cards-area .carts .card3 {
     width: 330px;
@@ -560,6 +919,8 @@ ul li a:hover:after {
     cursor: pointer;
     font-family: 'Lota Grotesque', sans-serif;
     font-size: 12px;
+    margin-top: -40px;
+    margin-left: 10px;
 }
 
 #cards-area .carts .card1 .buttons .button-2 button {
@@ -575,6 +936,8 @@ ul li a:hover:after {
     font-family: 'Lota Grotesque', sans-serif;
     font-size: 12px;
     color: rgb(230, 96, 0);
+    margin-top: -40px;
+
 }
 
 #cards-area .carts .buttons .button-1 button:hover {
@@ -595,7 +958,7 @@ ul li a:hover:after {
     font-size: 12px;
     color: grey;
     padding: 10px;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left: 40px;
     display: inline-block
 }
@@ -604,7 +967,7 @@ ul li a:hover:after {
     display: flex;
     gap: 10px;
     margin-left: 10px;
-    margin-top: 30px;
+    margin-top: 23px;
 }
 
 #cards-area .carts .card2 .buttons .button-3 button {
@@ -748,7 +1111,7 @@ ul li a:hover:after {
     cursor: pointer;
 }
 
-#sales-area .sales-packet .sale{
+#sales-area .sales-packet .sale {
     display: flex;
 }
 
@@ -785,29 +1148,30 @@ ul li a:hover:after {
     cursor: pointer;
 }
 
-#mini-carts-area .mini-carts{
+#mini-carts-area .mini-carts {
     margin-top: 150px;
 }
 
 .checked {
-  color: rgb(230, 96, 0);
+    color: rgb(230, 96, 0);
 }
 
-.whitestar{
+.whitestar {
     color: wheat
 }
 
-#mini-carts-area .mini-carts .title{
+#mini-carts-area .mini-carts .title {
     display: flex;
     justify-content: space-between;
 }
 
-#mini-carts-area .mini-carts .title h1{
+#mini-carts-area .mini-carts .title h1 {
     font-size: 40px;
     font-weight: bold;
 
 }
-#mini-carts-area .mini-carts .title a{
+
+#mini-carts-area .mini-carts .title a {
     text-decoration: none;
     margin-top: 18px;
     color: grey;
@@ -822,114 +1186,257 @@ ul li a:hover:after {
 
 }
 
-#mini-carts-area .mini-carts .carts{
+#mini-carts-area .mini-carts .carts {
     display: flex;
     gap: 25px;
     margin-top: 50px;
     cursor: pointer;
 }
 
-#mini-carts-area .mini-carts .carts .star{
+#mini-carts-area .mini-carts .carts .star {
     margin-left: 10px;
 }
 
-#mini-carts-area .mini-carts .carts .star1{
+#mini-carts-area .mini-carts .carts .star1 {
     margin-left: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
-#mini-carts-area .mini-carts .carts p{
+#mini-carts-area .mini-carts .carts p {
     display: inline;
     font-weight: bold;
     color: rgb(230, 96, 0);
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-#mini-carts-area .mini-carts .carts h4{
+#mini-carts-area .mini-carts .carts h4 {
     font-size: 18px;
     margin-top: 10px;
     margin-left: 10px;
     font-family: 'Lota Grotesque', sans-serif;
 }
 
-#mini-carts-area .mini-carts .carts p1{
+#mini-carts-area .mini-carts .carts p1 {
     display: inline-block;
     margin-left: 10px;
-    font-size: 16px;
-    margin-top: 10px;
+    font-size: 13px;
+    margin-top: 5px;
     font-family: 'Lota Grotesque', sans-serif;
     color: grey;
 }
 
-#mini-carts-area .mini-carts .carts .cart-1{
-    width: 200px;
+#mini-carts-area .mini-carts .carts .cart-1 {
+    width: 180px;
     height: 180px;
     background-color: white;
     border-radius: 15px 15px 0px 0px;
 }
 
-#mini-carts-area .mini-carts .carts .cart-2{
-    width: 200px;
+#mini-carts-area .mini-carts .carts .cart-2 {
+    width: 180px;
     height: 180px;
     background-color: white;
     border-radius: 15px 15px 0px 0px;
 }
 
-#mini-carts-area .mini-carts .carts .cart-3{
-    width: 200px;
+#mini-carts-area .mini-carts .carts .cart-3 {
+    width: 180px;
     height: 180px;
     background-color: white;
     border-radius: 15px 15px 0px 0px;
 }
 
-#mini-carts-area .mini-carts .carts .cart-4{
-    width: 200px;
+#mini-carts-area .mini-carts .carts .cart-4 {
+    width: 180px;
     height: 180px;
     background-color: white;
     border-radius: 15px 15px 0px 0px;
 }
 
-#mini-carts-area .mini-carts .carts .cart-5{
-    width: 200px;
+#mini-carts-area .mini-carts .carts .cart-5 {
+    width: 180px;
     height: 180px;
     background-color: white;
     border-radius: 15px 15px 0px 0px;
 }
 
 
-#mini-carts-area .mini-carts .carts .img-1 img{
+#mini-carts-area .mini-carts .carts .img-1 img {
     width: 60px;
     height: 60px;
     margin-left: 10px;
     margin-top: 10px;
 }
 
-#mini-carts-area .mini-carts .carts .img-2 img{
+#mini-carts-area .mini-carts .carts .img-2 img {
     width: 40px;
     height: 40px;
     margin-left: 10px;
     margin-top: 20px;
 }
 
-#mini-carts-area .mini-carts .carts .img-3 img{
+#mini-carts-area .mini-carts .carts .img-3 img {
     width: 40px;
     height: 40px;
     margin-left: 10px;
     margin-top: 20px;
 }
 
-#mini-carts-area .mini-carts .carts .img-4 img{
+#mini-carts-area .mini-carts .carts .img-4 img {
     width: 40px;
     height: 40px;
     margin-left: 10px;
     margin-top: 20px;
 }
 
-#mini-carts-area .mini-carts .carts .img-5 img{
+#mini-carts-area .mini-carts .carts .img-5 img {
     width: 50px;
     height: 50px;
     margin-left: 10px;
     margin-top: 20px;
+}
+
+
+#mini-carts-area .mini-carts .activation1 {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    gap: 10px;
+    background-color: rgb(247, 245, 245);
+    border-radius: 0px 0px 15px 15px;
+}
+
+#mini-carts-area .mini-carts .activation1 span {
+    font-size: 15px;
+    margin-left: 8px;
+    margin-top: 13px;
+    color: grey;
+    font-family: 'Lota Grotesque', sans-serif;
+}
+
+
+#mini-carts-area .mini-carts .activation1 p2 {
+    font-size: 13px;
+    margin-left: 8px;
+    margin-top: 15px;
+    font-family: 'Lota Grotesque', sans-serif;
+}
+
+#mini-carts-area .mini-carts .activation2 {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    gap: 10px;
+    background-color: rgb(247, 245, 245);
+    border-radius: 0px 0px 15px 15px;
+}
+
+#mini-carts-area .mini-carts .activation2 span {
+    font-size: 15px;
+    margin-left: 8px;
+    margin-top: 13px;
+    color: grey;
+    font-family: 'Lota Grotesque', sans-serif;
+}
+
+
+#mini-carts-area .mini-carts .activation2 p2 {
+    font-size: 13px;
+    margin-left: 8px;
+    margin-top: 15px;
+    font-family: 'Lota Grotesque', sans-serif;
+}
+
+#mini-carts-area .mini-carts .activation3 {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    gap: 10px;
+    background-color: rgb(247, 245, 245);
+    border-radius: 0px 0px 15px 15px;
+}
+
+#mini-carts-area .mini-carts .activation3 span {
+    font-size: 15px;
+    margin-left: 8px;
+    margin-top: 13px;
+    color: grey;
+    font-family: 'Lota Grotesque', sans-serif;
+}
+
+
+#mini-carts-area .mini-carts .activation3 p2 {
+    font-size: 13px;
+    margin-left: 8px;
+    margin-top: 15px;
+    font-family: 'Lota Grotesque', sans-serif;
+}
+
+#mini-carts-area .mini-carts .activation4 {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    gap: 10px;
+    background-color: rgb(247, 245, 245);
+    border-radius: 0px 0px 15px 15px;
+}
+
+#mini-carts-area .mini-carts .activation4 span {
+    font-size: 15px;
+    margin-left: 8px;
+    margin-top: 13px;
+    color: grey;
+    font-family: 'Lota Grotesque', sans-serif;
+}
+
+
+#mini-carts-area .mini-carts .activation4 p2 {
+    font-size: 13px;
+    margin-left: 8px;
+    margin-top: 15px;
+    font-family: 'Lota Grotesque', sans-serif;
+}
+
+#mini-carts-area .mini-carts .activation5 {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    gap: 10px;
+    background-color: rgb(247, 245, 245);
+    border-radius: 0px 0px 15px 15px;
+}
+
+#mini-carts-area .mini-carts .activation5 span {
+    font-size: 15px;
+    margin-left: 8px;
+    margin-top: 13px;
+    color: grey;
+    font-family: 'Lota Grotesque', sans-serif;
+}
+
+
+#mini-carts-area .mini-carts .activation5 p2 {
+    font-size: 13px;
+    margin-left: 8px;
+    margin-top: 15px;
+    font-family: 'Lota Grotesque', sans-serif;
+}
+
+
+#mini-carts-area .mini-carts .activation-area .activation2 {
+    display: flex;
+}
+
+#mini-carts-area .mini-carts .activation-area .activation3 {
+    display: flex;
+}
+
+#mini-carts-area .mini-carts .activation-area .activation4 {
+    display: flex;
+}
+
+#mini-carts-area .mini-carts .activation-area .activation5 {
+    display: flex;
 }
 
 #addition-area .additions {
@@ -1048,7 +1555,7 @@ ul li a:hover:after {
 
 }
 
-#addition-area .akart .akart-control{
+#addition-area .akart .akart-control {
     width: 320px;
     height: 150px;
     border-radius: 15px;
@@ -1057,13 +1564,13 @@ ul li a:hover:after {
 }
 
 #addition-area .akart-internet:hover {
-    background-color:rgb(231, 227, 227);
+    background-color: rgb(231, 227, 227);
     transition: all 0.5s;
 
 }
 
 #addition-area .akart .akart-control:hover {
-    background-color:rgb(231, 227, 227);
+    background-color: rgb(231, 227, 227);
     transition: all 0.5s;
 
 }
