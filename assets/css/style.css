@@ -58,7 +58,7 @@ main {
     position: relative;
 }
 
-ul li a:before {
+.menues ul li a:before {
 
     position: absolute;
     top: 0;
@@ -71,7 +71,7 @@ ul li a:before {
     transition: all 0.5s;
 }
 
-ul li a:after {
+.menues ul li a:after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -1803,6 +1803,113 @@ ul li a:hover:after {
     border-radius: 30px;
     cursor: pointer;
 }
+
+#footer-area {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    position: relative;
+    margin-top: 80px;
+  
+}
+
+#footer-area .footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    height: 190px;
+    border-bottom: 1px solid grey;
+
+}
+
+#footer-area .footer ul li {
+    list-style: none;
+}
+
+#footer-area .footer ul li a {
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lota Grotesque', sans-serif;
+}
+
+
+#footer-area .footer ul li a:hover{
+    color: rgb(116, 62, 116);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+
+#footer-area .footer .contents a {
+    color: #b2b2b2;
+    margin-top: 10px;
+    display: block;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+
+#footer-area .footer .language-logo{
+    position: relative;
+}
+
+#footer-area .footer .language-logo .img2{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 50px;
+    z-index: 1;
+}
+
+#footer-area .footer .language-logo .img2 img{
+    width: 42px;
+    height: 38px;
+}
+
+
+#footer-area .footer .language-logo .lang {
+    position: absolute;
+    width: 100px;
+}
+
+#footer-area .footer .language-logo form {
+    width: 55px;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-left: 1px solid rgb(117, 114, 114);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+
+#footer-area .footer .language-logo img {
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+
+}
+
+#footer-area .footer .language-logo .language {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    margin-left: 8px;    
+}
+
+#footer-area .footer .language-logo .language label {
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+#footer-area .footer .language-logo .language:hover {
+    background-color: rgb(51, 49, 49);
+    transition: all 0.5s;
+}
+
 
 
 .col-1 {
