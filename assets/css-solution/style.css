@@ -90,7 +90,8 @@ body {
     color: white
 }
 
-ul li a:hover:before,ul li a:hover:after {
+ul li a:hover:before,
+ul li a:hover:after {
     transform: scaleX(1);
 }
 
@@ -361,7 +362,7 @@ ul li a:hover:before,ul li a:hover:after {
     cursor: pointer;
     text-decoration: none;
     list-style: none;
-    
+
 }
 
 .header-center .app-button .btn-2 {
@@ -396,7 +397,7 @@ ul li a:hover:before,ul li a:hover:after {
 }
 
 .header-center .app-button .btn-3 a {
-    
+
     color: rgb(183, 180, 180);
     cursor: pointer;
     text-decoration: none;
@@ -424,7 +425,7 @@ ul li a:hover:before,ul li a:hover:after {
 }
 
 
-.header-center .app-button .btn-5{
+.header-center .app-button .btn-5 {
     width: 200px;
     height: 40px;
     opacity: 1;
@@ -447,7 +448,7 @@ ul li a:hover:before,ul li a:hover:after {
 
 }
 
-.header-center .app-button .btn-6{
+.header-center .app-button .btn-6 {
     width: 90px;
     height: 40px;
     opacity: 1;
@@ -495,15 +496,356 @@ ul li a:hover:before,ul li a:hover:after {
     transition: all 0.5s;
 }
 
+#main-area .title {
+    margin-top: 100px;
+    font-weight: 750;
+    font-size: 24px;
+    font-family: 'Lota Grotesque', sans-serif;
+}
 
+#main-area .new-news{
+    margin-left: 50px;
+    margin-top: -45px;
+}
+
+#main-area .bckr-img img {
+    width: 70%;
+    height: 350px;
+    position: absolute;
+    border-radius: 15px;
+    margin-top: 30px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#main-area .bckr-img img:hover {
+    background: red;
+    transition: all 0.5s;
+}
+
+#main-area .self-service span {
+    font-size: 12px;
+    color: rgb(236, 236, 236);
+}
+
+#main-area .self-service {
+    margin-top: 50px;
+    position: relative;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+#main-area .self-service .content {
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#main-area .self-service .btn-1 button {
+    width: 140px;
+    height: 40px;
+    margin-top: 50px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    background: rgba(255, 255, 255, .2);
+    color: white;
+    cursor: pointer;
+}
+
+#main-area .self-service .btn-1 button:hover {
+    background: rgba(255, 255, 255, 0.089);
+    transition: all 0.5s;
+}
+
+#main-area .yandex-news{
+    margin-left: 50px;
+    margin-top: -48px;
+}
+
+#main-area .bckr-img-2 img {
+    width: 70%;
+    height: 350px;
+    position: absolute;
+    border-radius: 15px;
+    margin-top: 150px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#main-area .bckr-img-2 img:hover {
+    background: red;
+    transition: all 0.5s;
+}
+
+#main-area .yandex span {
+    font-size: 12px;
+    color: rgb(236, 236, 236);
+}
+
+#main-area .yandex {
+    position: relative;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+#main-area .yandex .yandex-about {
+    margin-top: 170px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#main-area .yandex .btn-2 button {
+    width: 140px;
+    height: 40px;
+    margin-top: 50px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    background: rgba(255, 255, 255, .2);
+    color: white;
+    cursor: pointer;
+}
+
+#main-area .yandex .btn-2 button:hover {
+    background: rgba(255, 255, 255, 0.089);
+    transition: all 0.5s;
+}
+
+#main-area .yandex .interests {
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#main-area .title-2 {
+    margin-top: 120px;
+    font-weight: 750;
+    font-size: 24px;
+    font-family: 'Lota Grotesque', sans-serif;
+    color: black;
+}
+
+#main-area .bckr-3 img {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    border-radius: 15px;
+    margin-top: 20px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#main-area .bckr-3 img:hover {
+    background: red;
+    transition: all 0.5s;
+}
+
+#main-area .best-apps-about span {
+    font-size: 12px;
+    color: rgb(236, 236, 236);
+    margin-left: 10px;
+}
+
+#main-area .best-apps-about .icon img{
+    width: 40px;
+    height: 40px;
+}
+
+#main-area .best-apps {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+#main-area .best-apps .app-news p{
+    margin-top: -70px;
+    margin-left: 10px;
+}
+
+#main-area .best-apps .best-apps-about {
+    display: flex;
+    font-weight: bold;
+}
+
+#main-area .best-apps .btn-3 button {
+    width: 140px;
+    height: 40px;
+    margin-top: 50px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    background: rgba(255, 255, 255, .2);
+    color: white;
+    cursor: pointer;
+}
+
+#main-area .best-apps .btn-3 button:hover {
+    background: rgba(255, 255, 255, 0.089);
+    transition: all 0.5s;
+}
+
+#main-area .best-apps .app-news{
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#main-area .best-apps .book h1{
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+#main-area .busuu-azercell{
+display: flex;
+cursor: pointer;
+}
+
+#main-area .bckr-4 img {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    border-radius: 15px;
+    margin-top: 50px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#main-area .bckr-4 img:hover {
+    background: red;
+    transition: all 0.5s;
+}
+
+#main-area .busuu-azercell span {
+    font-size: 12px;
+    color: rgb(236, 236, 236);
+    margin-left: 10px;
+}
+
+#main-area .busuu-azercell .busuu-main{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 20px;
+    color: white;
+}
+
+#main-area .busuu-azercell .busuu-icon{
+    display: flex;
+}
+
+#main-area .busuu-azercell .busuu-icon img{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#main-area .busuu-azercell .busuu-icon .icon{
+    margin-top: -20px;
+}
+
+#main-area .busuu-azercell .busuu-icon .busuu-about{
+    margin-top: -20px;
+}
+
+#main-area .busuu-azercell .busuu-icon .busuu-about p{
+    margin-left: 10px;
+}
+
+#main-area .best-apps .best-apps-about {
+    display: flex;
+    font-weight: bold;
+}
+
+#main-area .btn-4 button {
+    width: 140px;
+    height: 40px;
+    margin-top: 60px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    background: rgba(255, 255, 255, .2);
+    color: white;
+    cursor: pointer;
+}
+
+#main-area .btn-4 button:hover {
+    background: rgba(255, 255, 255, 0.089);
+    transition: all 0.5s;
+    
+}
+
+#main-area .best-apps .app-news{
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#main-area .busuu h1{
+    margin-top: 70px;
+    font-weight: bold;
+}
+
+#main-area .busuu-azercell .azercell{
+    margin-left: 310px;
+}
+
+#main-area .busuu-azercell .azercell .bckr-4 img{
+    width: 420px;
+    height: 300px;
+    cursor: pointer;
+
+}
+
+#main-area .busuu-azercell .azercell .azercell-main{
+    position: relative;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+#main-area .busuu-azercell .azercell .azercell-icon{
+    display: flex;
+}
+
+
+#main-area .azercell-kids h1{
+    color: white;
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+#main-area .busuu-azercell .azercell .azercell-icon p{
+   margin-left: 10px;
+   color: white;
+}
+
+#main-area .btn-5 button {
+    width: 140px;
+    height: 40px;
+    margin-top: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    background: rgba(255, 255, 255, .2);
+    color: white;
+    cursor: pointer;
+}
+
+#main-area .btn-5 button:hover {
+    background: rgba(255, 255, 255, 0.089);
+    transition: all 0.5s;
+    
+}
 
 #footer-area {
     width: 100%;
     height: 400px;
     background-color: black;
     position: relative;
-    margin-top: 80px;
-
+    margin-top: 200px;
 }
 
 #footer-area .footer {
@@ -512,7 +854,6 @@ ul li a:hover:before,ul li a:hover:after {
     margin-top: 50px;
     height: 190px;
     border-bottom: 1px solid grey;
-
 }
 
 #footer-area .footer ul li {
@@ -528,7 +869,6 @@ ul li a:hover:before,ul li a:hover:after {
     font-family: 'Lota Grotesque', sans-serif;
 }
 
-
 #footer-area .footer ul li a:hover {
     color: rgb(116, 62, 116);
     transition: all 0.5s;
@@ -543,7 +883,6 @@ ul li a:hover:before,ul li a:hover:after {
     font-weight: 400;
     font-size: 13px;
 }
-
 
 #footer-area .footer .language-logo {
     position: relative;
@@ -582,7 +921,6 @@ ul li a:hover:before,ul li a:hover:after {
     height: 40px;
     width: 120px;
     cursor: pointer;
-
 }
 
 #footer-area .footer .language-logo .language {
@@ -602,35 +940,8 @@ ul li a:hover:before,ul li a:hover:after {
     transition: all 0.5s;
 }
 
-
-#gif-area {
-    background-image: url(../images/anydesk1-ezgif.com-video-to-gif-converter.gif);
-    height: 600px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#gif-area .gif {
-    color: white;
-}
-
-#gif-area .gif h2 {
-    width: 500px;
-    font-size: 52px;
-    font-family: 'Lota Grotesque', sans-serif;
-    font-weight: bold;
-    margin-top: 230px;
-}
-
-#gif-area .gif span {
-    color: rgb(197, 197, 197);
-    margin-top: 20px;
-    display: inline-block;
-}
-
 #footer-area .contact .call-center {
     margin-top: 30px;
-
 }
 
 #footer-area .contact .app-download {
@@ -653,8 +964,6 @@ ul li a:hover:before,ul li a:hover:after {
 
 }
 
-
-
 #footer-area .contact span {
     color: white;
 }
@@ -671,7 +980,7 @@ ul li a:hover:before,ul li a:hover:after {
     border-radius: 20px;
     font-weight: bold;
     border: none;
-    background: rgba(255,255,255,.15);
+    background: rgba(255, 255, 255, .15);
     color: rgb(183, 180, 180);
     cursor: pointer;
 
@@ -689,7 +998,7 @@ ul li a:hover:before,ul li a:hover:after {
     border-radius: 20px;
     font-weight: bold;
     border: none;
-    background: rgba(255,255,255,.15);
+    background: rgba(255, 255, 255, .15);
     color: rgb(183, 180, 180);
     cursor: pointer;
 }
@@ -705,7 +1014,7 @@ ul li a:hover:before,ul li a:hover:after {
     border-radius: 20px;
     font-weight: bold;
     border: none;
-    background: rgba(255,255,255,.15);
+    background: rgba(255, 255, 255, .15);
     color: rgb(183, 180, 180);
     cursor: pointer;
 
@@ -728,7 +1037,7 @@ ul li a:hover:before,ul li a:hover:after {
     border-radius: 20px;
     font-weight: bold;
     border: none;
-    background: rgba(255,255,255,.15);
+    background: rgba(255, 255, 255, .15);
     color: rgb(183, 180, 180);
     cursor: pointer;
 
@@ -746,8 +1055,8 @@ ul li a:hover:before,ul li a:hover:after {
     border-radius: 20px;
     font-weight: bold;
     border: none;
-    background: rgba(255,255,255,.15);
-        color: white;
+    background: rgba(255, 255, 255, .15);
+    color: white;
     cursor: pointer;
 
 }
