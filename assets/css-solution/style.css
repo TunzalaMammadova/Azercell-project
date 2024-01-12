@@ -503,7 +503,7 @@ ul li a:hover:after {
     font-family: 'Lota Grotesque', sans-serif;
 }
 
-#main-area .new-news{
+#main-area .new-news {
     margin-left: 50px;
     margin-top: -45px;
 }
@@ -559,7 +559,7 @@ ul li a:hover:after {
     transition: all 0.5s;
 }
 
-#main-area .yandex-news{
+#main-area .yandex-news {
     margin-left: 50px;
     margin-top: -48px;
 }
@@ -649,7 +649,7 @@ ul li a:hover:after {
     margin-left: 10px;
 }
 
-#main-area .best-apps-about .icon img{
+#main-area .best-apps-about .icon img {
     width: 40px;
     height: 40px;
 }
@@ -662,7 +662,7 @@ ul li a:hover:after {
     cursor: pointer;
 }
 
-#main-area .best-apps .app-news p{
+#main-area .best-apps .app-news p {
     margin-top: -70px;
     margin-left: 10px;
 }
@@ -689,20 +689,20 @@ ul li a:hover:after {
     transition: all 0.5s;
 }
 
-#main-area .best-apps .app-news{
+#main-area .best-apps .app-news {
     margin-top: 70px;
     font-weight: bold;
     font-size: 20px;
 }
 
-#main-area .best-apps .book h1{
+#main-area .best-apps .book h1 {
     margin-top: 50px;
     font-weight: bold;
 }
 
-#main-area .busuu-azercell{
-display: flex;
-cursor: pointer;
+#main-area .busuu-azercell {
+    display: flex;
+    cursor: pointer;
 }
 
 #main-area .bckr-4 img {
@@ -726,32 +726,32 @@ cursor: pointer;
     margin-left: 10px;
 }
 
-#main-area .busuu-azercell .busuu-main{
+#main-area .busuu-azercell .busuu-main {
     position: relative;
     margin-top: 100px;
     margin-left: 20px;
     color: white;
 }
 
-#main-area .busuu-azercell .busuu-icon{
+#main-area .busuu-azercell .busuu-icon {
     display: flex;
 }
 
-#main-area .busuu-azercell .busuu-icon img{
+#main-area .busuu-azercell .busuu-icon img {
     width: 40px;
     height: 40px;
     border-radius: 10px;
 }
 
-#main-area .busuu-azercell .busuu-icon .icon{
+#main-area .busuu-azercell .busuu-icon .icon {
     margin-top: -20px;
 }
 
-#main-area .busuu-azercell .busuu-icon .busuu-about{
+#main-area .busuu-azercell .busuu-icon .busuu-about {
     margin-top: -20px;
 }
 
-#main-area .busuu-azercell .busuu-icon .busuu-about p{
+#main-area .busuu-azercell .busuu-icon .busuu-about p {
     margin-left: 10px;
 }
 
@@ -775,51 +775,51 @@ cursor: pointer;
 #main-area .btn-4 button:hover {
     background: rgba(255, 255, 255, 0.089);
     transition: all 0.5s;
-    
+
 }
 
-#main-area .best-apps .app-news{
+#main-area .best-apps .app-news {
     margin-top: 70px;
     font-weight: bold;
     font-size: 20px;
 }
 
-#main-area .busuu h1{
+#main-area .busuu h1 {
     margin-top: 70px;
     font-weight: bold;
 }
 
-#main-area .busuu-azercell .azercell{
+#main-area .busuu-azercell .azercell {
     margin-left: 310px;
 }
 
-#main-area .busuu-azercell .azercell .bckr-4 img{
+#main-area .busuu-azercell .azercell .bckr-4 img {
     width: 420px;
     height: 300px;
     cursor: pointer;
 
 }
 
-#main-area .busuu-azercell .azercell .azercell-main{
+#main-area .busuu-azercell .azercell .azercell-main {
     position: relative;
     margin-top: 80px;
     margin-left: 20px;
 }
 
-#main-area .busuu-azercell .azercell .azercell-icon{
+#main-area .busuu-azercell .azercell .azercell-icon {
     display: flex;
 }
 
 
-#main-area .azercell-kids h1{
+#main-area .azercell-kids h1 {
     color: white;
     margin-top: 60px;
     font-weight: bold;
 }
 
-#main-area .busuu-azercell .azercell .azercell-icon p{
-   margin-left: 10px;
-   color: white;
+#main-area .busuu-azercell .azercell .azercell-icon p {
+    margin-left: 10px;
+    color: white;
 }
 
 #main-area .btn-5 button {
@@ -837,7 +837,456 @@ cursor: pointer;
 #main-area .btn-5 button:hover {
     background: rgba(255, 255, 255, 0.089);
     transition: all 0.5s;
-    
+
+}
+
+#main-area .busuu-azercell {
+    display: flex;
+    cursor: pointer;
+}
+
+#main-area .bckr-4 img {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    border-radius: 15px;
+    margin-top: 50px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#main-area .bckr-4 img:hover {
+    background: red;
+    transition: all 0.5s;
+}
+
+#main-area .busuu-azercell span {
+    font-size: 12px;
+    color: rgb(236, 236, 236);
+    margin-left: 10px;
+}
+
+#main-area .busuu-azercell .busuu-main {
+    position: relative;
+    margin-top: 100px;
+    margin-left: 20px;
+    color: white;
+}
+
+#main-area .busuu-azercell .busuu-icon {
+    display: flex;
+}
+
+#main-area .busuu-azercell .busuu-icon img {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#main-area .busuu-azercell .busuu-icon .icon {
+    margin-top: -20px;
+}
+
+#main-area .busuu-azercell .busuu-icon .busuu-about {
+    margin-top: -20px;
+}
+
+#main-area .busuu-azercell .busuu-icon .busuu-about p {
+    margin-left: 10px;
+}
+
+#main-area .best-apps .best-apps-about {
+    display: flex;
+    font-weight: bold;
+}
+
+#main-area .btn-4 button {
+    width: 140px;
+    height: 40px;
+    margin-top: 60px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    background: rgba(255, 255, 255, .2);
+    color: white;
+    cursor: pointer;
+}
+
+#main-area .btn-4 button:hover {
+    background: rgba(255, 255, 255, 0.089);
+    transition: all 0.5s;
+
+}
+
+#main-area .best-apps .app-news {
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#main-area .busuu h1 {
+    margin-top: 70px;
+    font-weight: bold;
+}
+
+#main-area .busuu-azercell .azercell {
+    margin-left: 310px;
+}
+
+#main-area .busuu-azercell .azercell .bckr-4 img {
+    width: 420px;
+    height: 300px;
+    cursor: pointer;
+
+}
+
+#main-area .busuu-azercell .azercell .azercell-main {
+    position: relative;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+#main-area .busuu-azercell .azercell .azercell-icon {
+    display: flex;
+}
+
+
+#main-area .azercell-kids h1 {
+    color: white;
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+#main-area .busuu-azercell .azercell .azercell-icon p {
+    margin-left: 10px;
+    color: white;
+}
+
+#main-area .btn-5 button {
+    width: 140px;
+    height: 40px;
+    margin-top: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    background: rgba(255, 255, 255, .2);
+    color: white;
+    cursor: pointer;
+}
+
+#main-area .btn-5 button:hover {
+    background: rgba(255, 255, 255, 0.089);
+    transition: all 0.5s;
+
+}
+
+#main-area .busuu-azercell {
+    display: flex;
+    cursor: pointer;
+}
+
+#main-area .bckr-4 img {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    border-radius: 15px;
+    margin-top: 50px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#main-area .bckr-4 img:hover {
+    background: red;
+    transition: all 0.5s;
+}
+
+#main-area .busuu-azercell span {
+    font-size: 12px;
+    color: rgb(236, 236, 236);
+    margin-left: 10px;
+}
+
+#main-area .busuu-azercell .busuu-main {
+    position: relative;
+    margin-top: 100px;
+    margin-left: 20px;
+    color: white;
+}
+
+#main-area .busuu-azercell .busuu-icon {
+    display: flex;
+}
+
+#main-area .busuu-azercell .busuu-icon img {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#main-area .busuu-azercell .busuu-icon .icon {
+    margin-top: -20px;
+}
+
+#main-area .busuu-azercell .busuu-icon .busuu-about {
+    margin-top: -20px;
+}
+
+#main-area .busuu-azercell .busuu-icon .busuu-about p {
+    margin-left: 10px;
+}
+
+#main-area .best-apps .best-apps-about {
+    display: flex;
+    font-weight: bold;
+}
+
+#main-area .btn-4 button {
+    width: 140px;
+    height: 40px;
+    margin-top: 60px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    background: rgba(255, 255, 255, .2);
+    color: white;
+    cursor: pointer;
+}
+
+#main-area .btn-4 button:hover {
+    background: rgba(255, 255, 255, 0.089);
+    transition: all 0.5s;
+
+}
+
+#main-area .best-apps .app-news {
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#main-area .busuu h1 {
+    margin-top: 70px;
+    font-weight: bold;
+}
+
+#main-area .busuu-azercell .azercell {
+    margin-left: 310px;
+}
+
+#main-area .busuu-azercell .azercell .bckr-4 img {
+    width: 420px;
+    height: 300px;
+    cursor: pointer;
+
+}
+
+#main-area .busuu-azercell .azercell .azercell-main {
+    position: relative;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+#main-area .busuu-azercell .azercell .azercell-icon {
+    display: flex;
+}
+
+
+#main-area .azercell-kids h1 {
+    color: white;
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+#main-area .busuu-azercell .azercell .azercell-icon p {
+    margin-left: 10px;
+    color: white;
+}
+
+#main-area .btn-5 button {
+    width: 140px;
+    height: 40px;
+    margin-top: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    background: rgba(255, 255, 255, .2);
+    color: white;
+    cursor: pointer;
+}
+
+#main-area .btn-5 button:hover {
+    background: rgba(255, 255, 255, 0.089);
+    transition: all 0.5s;
+
+}
+
+#main-area .title-3 {
+    margin-top: 100px;
+    font-weight: 750;
+    font-size: 24px;
+    font-family: 'Lota Grotesque', sans-serif;
+}
+
+#main-area .cinema-tv-app {
+    display: flex;
+    cursor: pointer;
+}
+
+#main-area .bckr-5 img {
+    width: 420px;
+    height: 300px;
+    position: absolute;
+    border-radius: 15px;
+    margin-top: 50px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#main-area .bckr-5 img:hover {
+    transition: all 0.5s;
+}
+
+#main-area .cinema-tv-app span {
+    font-size: 12px;
+    color: rgb(236, 236, 236);
+    margin-left: 10px;
+}
+
+#main-area .cinema-tv-app .tv-main {
+    position: relative;
+    margin-top: 100px;
+    margin-left: 20px;
+    color: white;
+}
+
+#main-area .cinema-tv-app .tv-icon {
+    display: flex;
+}
+
+#main-area .cinema-tv-app .tv-about span{
+    display: inline-block;
+}
+
+#main-area .cinema-tv-app .tv-icon img {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#main-area .cinema-tv-app .tv-icon .icon {
+    margin-top: -20px;
+}
+
+#main-area .cinema-tv-app .tv-icon .tv-about {
+    margin-top: -20px;
+}
+
+#main-area .cinema-tv-app .tv-about p {
+    margin-left: 10px;
+}
+
+#main-area .tv-app .tv-about {
+    display: flex;
+    font-weight: bold;
+}
+
+#main-area .btn-6 button {
+    width: 140px;
+    height: 40px;
+    margin-top: 60px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    background: rgba(255, 255, 255, .2);
+    color: white;
+    cursor: pointer;
+}
+
+#main-area .btn-6 button:hover {
+    background: rgba(255, 255, 255, 0.089);
+    transition: all 0.5s;
+
+}
+
+#main-area .best-online .online-about {
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    position: relative;
+}
+
+#main-area .mobil-tv h1 {
+    margin-top: 70px;
+    font-weight: bold;
+}
+
+#main-area .cinema-tv-app .best-online {
+    margin-left: 310px;
+}
+
+#main-area .bckr-6 img {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    border-radius: 15px;
+    margin-top: 50px;
+    opacity: 0.9;
+    cursor: pointer;
+    margin-left: -170px;
+}
+
+
+#main-area .best-online .chanel {
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+#main-area .cinema-tv-app .best-online .chanel-icon {
+    display: flex;
+    position: relative;
+}
+
+#main-area .cinema-tv-app .best-online .chanel-icon .icon img{
+    width: 40px;
+    height: 40px;
+}
+
+#main-area .tv-main.tv-icon .icon img{
+    margin-top: -30px;
+    width: 40px;
+    height: 40px;
+}
+
+
+#main-area .best-online h1 {
+    color: white;
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+#main-area .cinema-tv-app .best-online .online-about  p {
+    margin-left: 10px;
+    color: black;
+    position: relative;
+}
+
+#main-area .btn-7 button {
+    width: 140px;
+    height: 40px;
+    margin-top: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    background: rgba(255, 255, 255, .2);
+    color: white;
+    cursor: pointer;
+}
+
+#main-area .btn-7 button:hover {
+    background: rgba(255, 255, 255, 0.089);
+    transition: all 0.5s;
+
 }
 
 #footer-area {
